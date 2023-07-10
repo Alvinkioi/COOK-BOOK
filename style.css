@@ -69,7 +69,7 @@ body {
   .recipe-item p {
     margin: 0;
     padding: 10px;
-    color: #777;
+    color: rgba(0,0,0);
   }
   
   .recipe-item a {
