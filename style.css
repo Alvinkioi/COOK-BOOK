@@ -73,8 +73,10 @@ body {
   }
   
   .recipe-item a {
-    background: #0c2461;
-    color: #fff;
+    background: rgba(255,255,255, 0.27);
+    color: rgba(255,0,0, .3);
+    border-radius: 15px;
+    font-weight: 1700;
     min-width: 150px;
     padding: 10px;
     text-decoration: none;
