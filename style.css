@@ -6,7 +6,6 @@ body {
   }
   
   header {
-    background: #0c2461;
     color: darkblue;
     padding: 20px;
     text-align: center;
@@ -27,6 +26,12 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    border-radius: 15px;
+    box-shadow: 0,0,3px rgba(0,0,0,.3);
+    color: darkred;
+    border: none;
+    outline: none;
+    cursor: pointer;
   }
   
   .recipe-item {
@@ -37,6 +42,15 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255, .1);
+  }
+
+  .recipe-item:hover{
+    background: rgb(99,203,238);
+    color: rgba(255,0,0, 0.60);
+    transition: all 300ms ease;
   }
   
   .recipe-item img {
