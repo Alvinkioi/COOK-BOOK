@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background: linear-gradient(to left,rgb(99,203,238),rgb(7,78,90));
   }
   
   header {
     background: #0c2461;
-    color: #fff;
+    color: darkblue;
     padding: 20px;
     text-align: center;
   }
